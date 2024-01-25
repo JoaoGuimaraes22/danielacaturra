@@ -10,7 +10,6 @@ import Arch_Ice from "./pages/archive/arch_ice";
 import Arch_Maat from "./pages/archive/arch_maat";
 import Arch_Pantyfier from "./pages/archive/arch_pantyfier";
 import Arch_Viaggio from "./pages/archive/arch_viaggio";
-import styles from "./index.css";
 
 export default function App() {
   return (

@@ -1,10 +1,34 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: content-box;
+.archive_links_fixed {
+  position: fixed;
+  top: 10rem;
+  left: 2rem;
 }
 
-html,
-body {
-  font-family: Helvetica;
+.arch_content {
+  padding-left: 43rem;
+  padding-top: 4rem;
+  padding-right: 4rem;
+}
+
+.header_text {
+  padding-bottom: 2rem;
+}
+
+.split_space_imgs {
+  display: flex;
+}
+
+.img_resize {
+  max-width: 50%;
+}
+
+.img_resize_3 {
+  max-width: 90%;
+}
+
+.img_resize_2 {
+  max-width: 70%;
+}
+.video_resize {
+  max-width: 100%;
 }

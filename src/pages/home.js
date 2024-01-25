@@ -2,7 +2,8 @@ import cm from "../img/cm.png";
 import gc from "../img/gd.png";
 import dc from "../img/dc.png";
 import { Outlet, Link } from "react-router-dom";
-import style from "../style/home.css";
+import "../style/home.css";
+import "../style/repeatable.css";
 
 const Home = () => {
   return (

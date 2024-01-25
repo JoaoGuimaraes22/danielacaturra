@@ -1,5 +1,5 @@
 import { Outlet, Link } from "react-router-dom";
-import style from "../style/archive.css";
+import "../style/archive.css";
 
 const Archive = () => {
   return (
@@ -8,6 +8,7 @@ const Archive = () => {
         <p>
           <Link to="/archive">Archive</Link>
         </p>
+        <p>!!!!!!</p>
       </div>
       <div className="archive_links">
         <Link to="breathing">
