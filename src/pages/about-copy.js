@@ -4,10 +4,11 @@ import { Link } from "react-router-dom";
 import dani_about from "../img/dani_about.png";
 import dc from "../img/dc.png";
 
-const About = () => {
+const About_C = () => {
   return (
     <section className="about">
-      <div className="grid_base">
+      <div className="grid_base"></div>
+      <div className="container">
         <div className="sub_container_re">
           <p>danielacaturradesign@gmail.com</p>
           <p>(+351) 916 011 264</p>
@@ -42,14 +43,15 @@ const About = () => {
           </p>
           <p>Outside of the box thinker and doer. </p>
         </div>
-
+      </div>
+      <div className="container">
         <div className="sub_container_exp"></div>
         <div className="pad_extra">
           <p>::::::</p>
           <br></br>
           <p>Experience</p>
         </div>
-        <div className="sub_c ">
+        <div className="sub_container_exp_f ">
           <div className="exp_block">
             <p>Sep. 2023 — Dec. 2023</p>
             <p>MinimalDEsign (Brescia, Italy // Erasmus + Programme)</p>
@@ -82,13 +84,15 @@ const About = () => {
             <p>Art Direction & Make-up Artist</p>
           </div>
         </div>
-        <div className="sub_container_work"></div>
+      </div>
+      <div className="container">
+        <div className="sub_container_edu"></div>
         <div className="sub_container_edu_mid">
           <p>::::::</p>
           <br></br>
           <p>Education</p>
         </div>
-        <div className="sub_c">
+        <div className="sub_container_edu_f">
           <div className="edu_block">
             <p>2022 — 2023</p>
             <p>ETIC, BA (Hons) Graphic Design</p>
@@ -106,14 +110,15 @@ const About = () => {
             <p>Escola Secundária Quinta do Marquês (Humanistic Area) </p>
           </div>
         </div>
-
+      </div>
+      <div className="container">
         <div className="sub_container_work"></div>
         <div className="sub_container_work_mid">
           <p>::::::</p>
           <br></br>
           <p>Workshop</p>
         </div>
-        <div className="sub_c">
+        <div className="sub_container_work">
           <div className="work_block">
             <p>2023</p>
             <p>Riso Printing, Desisto</p>
@@ -129,12 +134,12 @@ const About = () => {
         <p>
           <Link to="/">Daniela!Caturra</Link>
         </p>
-        <p className="width_change">
+        <span className="width_change">
           <Link to="/about">About</Link>
-        </p>
+        </span>
       </div>
     </section>
   );
 };
 
-export default About;
+export default About_C;
