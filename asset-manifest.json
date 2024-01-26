@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/danielacaturra/static/css/main.8259b421.css",
+    "main.css": "/danielacaturra/static/css/main.d7f71fab.css",
     "main.js": "/danielacaturra/static/js/main.efa0b607.js",
     "static/media/maat7.png": "/danielacaturra/static/media/maat7.822bd78f8dab779ae7e9.png",
     "static/media/maat6.png": "/danielacaturra/static/media/maat6.fd105795995504b83c17.png",
@@ -54,11 +54,11 @@
     "static/media/cm.png": "/danielacaturra/static/media/cm.45f2960cf971a3cccf76.png",
     "static/media/cinema1.png": "/danielacaturra/static/media/cinema1.1d1381441b05fb1ee0bb.png",
     "index.html": "/danielacaturra/index.html",
-    "main.8259b421.css.map": "/danielacaturra/static/css/main.8259b421.css.map",
+    "main.d7f71fab.css.map": "/danielacaturra/static/css/main.d7f71fab.css.map",
     "main.efa0b607.js.map": "/danielacaturra/static/js/main.efa0b607.js.map"
   },
   "entrypoints": [
-    "static/css/main.8259b421.css",
+    "static/css/main.d7f71fab.css",
     "static/js/main.efa0b607.js"
   ]
 }
