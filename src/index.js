@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Home from "./pages/home";
 import NoPage from "./pages/nopage";
 import Archive from "./pages/archive";
@@ -14,7 +14,7 @@ import Cenas from "./pages/cenas";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <Routes>
         <Route index element={<Home />} />
         <Route path="archive" element={<Archive />} />
@@ -28,7 +28,7 @@ export default function App() {
         <Route path="cenas" element={<Cenas />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
