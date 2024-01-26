@@ -12,7 +12,9 @@ const Home = () => {
         <p>
           <Link to="/archive">Archive</Link>
         </p>
-        <p>!!!!!!</p>
+        <Link to="/cenas">
+          <p>!!!!!!</p>
+        </Link>
       </div>
       <div className="img-container">
         <img src={cm}></img>

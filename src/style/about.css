@@ -73,3 +73,7 @@ p {
 .dc_img {
   padding-bottom: 2.4rem;
 }
+
+.width_change {
+  min-width: 9vw;
+}

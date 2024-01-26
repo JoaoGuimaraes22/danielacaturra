@@ -130,9 +130,9 @@ const About = () => {
         <p>
           <Link to="/">Daniela!Caturra</Link>
         </p>
-        <p>
+        <span className="width_change">
           <Link to="/about">About</Link>
-        </p>
+        </span>
       </div>
     </section>
   );

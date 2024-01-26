@@ -1,4 +1,6 @@
 import { Link } from "react-router-dom";
+import daniGif from "../img/danielagif.gif";
+import "../style/cenas.css";
 
 const Cenas = () => {
   return (
@@ -12,7 +14,9 @@ const Cenas = () => {
           <Link to="/cenas">!!!!!!</Link>
         </p>
       </div>
-
+      <div className="content">
+        <img src={daniGif} className="cenas_img"></img>
+      </div>
       <div className="footer">
         <p>
           <Link to="/">Daniela!Caturra</Link>

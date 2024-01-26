@@ -25,7 +25,7 @@ export default function App() {
         <Route path="archive/maat" element={<Arch_Maat />} />
         <Route path="archive/pantyfier" element={<Arch_Pantyfier />} />
         <Route path="archive/viaggio" element={<Arch_Viaggio />} />
-
+        <Route path="cenas" element={<Cenas />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
