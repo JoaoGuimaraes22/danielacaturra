@@ -17,9 +17,9 @@ const Home = () => {
         </Link>
       </div>
       <div className="img-container">
-        <img src={cm}></img>
-        <img src={gc}></img>
-        <img src={dc}></img>
+        <img src={cm} className="img_home"></img>
+        <img src={gc} className="img_home"></img>
+        <img src={dc} className="img_home"></img>
       </div>
       <div className="footer">
         <p>
