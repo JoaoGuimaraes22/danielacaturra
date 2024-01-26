@@ -11,10 +11,11 @@ import Arch_Maat from "./pages/archive/arch_maat";
 import Arch_Pantyfier from "./pages/archive/arch_pantyfier";
 import Arch_Viaggio from "./pages/archive/arch_viaggio";
 import Cenas from "./pages/cenas";
+import React from "react";
 
 export default function App() {
   return (
-    <HashRouter basename="/">
+    <>
       <Routes>
         <Route index element={<Home />} />
         <Route path="archive" element={<Archive />} />
@@ -28,9 +29,18 @@ export default function App() {
         <Route path="cenas" element={<Cenas />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
-    </HashRouter>
+    </>
   );
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<App />);
+
+root.render(
+  <React.StrictMode>
+    {" "}
+    <HashRouter>
+      {" "}
+      <App />{" "}
+    </HashRouter>{" "}
+  </React.StrictMode>
+);
