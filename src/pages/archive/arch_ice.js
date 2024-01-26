@@ -15,9 +15,6 @@ const Arch_Ice = () => {
         <p>
           <Link to="/archive">Archive</Link>
         </p>{" "}
-        <Link to="/cenas">
-          <p>!!!!!!</p>
-        </Link>
       </div>
 
       <div className="archive_container">
@@ -74,8 +71,8 @@ const Arch_Ice = () => {
       <div className="arch_content">
         <div className="header_text">
           <p>
-            (April, 2023) <br></br> Visual Identity / Communication Design{" "}
-            <br></br>:::::: Personal Project
+            (2023) <br></br> Visual Identity / Communication Design <br></br>
+            :::::: Personal Project
           </p>
         </div>
         <div className="description">
@@ -100,7 +97,7 @@ const Arch_Ice = () => {
         <p>
           <Link to="/">Daniela!Caturra</Link>
         </p>
-        <p>
+        <p className="about_nudge">
           <Link to="/about">About</Link>
         </p>
       </div>

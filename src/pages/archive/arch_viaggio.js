@@ -9,9 +9,6 @@ const Arch_Viaggio = () => {
         <p>
           <Link to="/archive">Archive</Link>
         </p>{" "}
-        <Link to="/cenas">
-          <p>!!!!!!</p>
-        </Link>
       </div>
 
       <div className="archive_container">
@@ -86,7 +83,7 @@ const Arch_Viaggio = () => {
         <p>
           <Link to="/">Daniela!Caturra</Link>
         </p>
-        <p>
+        <p className="about_nudge">
           <Link to="/about">About</Link>
         </p>
       </div>

@@ -19,3 +19,11 @@ a {
 img {
   padding-top: 1.5rem;
 }
+
+.extra_nudge {
+  margin-right: -3.2rem;
+}
+
+.about_nudge {
+  margin-right: -2.1rem;
+}

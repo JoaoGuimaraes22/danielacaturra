@@ -8,7 +8,7 @@ const About = () => {
   return (
     <section className="about">
       <div className="container">
-        <div className="sub_container">
+        <div className="sub_container_re">
           <p>danielacaturradesign@gmail.com</p>
           <p>(+351) 916 011 264</p>
 
@@ -21,6 +21,9 @@ const About = () => {
           <a href="https://www.behance.net/danielacaturra" target="_blank">
             <p>Behance</p>
           </a>
+          <a href="https://vimeo.com/user176369781" target="_blank">
+            <p>Vimeo</p>
+          </a>
         </div>
         <div className="sub_container sub_container_nf">
           <p>Visual Identity</p>
@@ -29,7 +32,7 @@ const About = () => {
           <p>Typography</p>
           <p>Web Design</p>
         </div>
-        <div className="sub_container sub_container_nf">
+        <div className="sub_container sub_container_nf_minus">
           <p>Communication & Graphic Designer!!!</p>
           <p>
             Raised in Oeiras, Portugal. Multidisciplinary and dedicated to
@@ -47,7 +50,7 @@ const About = () => {
           <br></br>
           <p>Experience</p>
         </div>
-        <div className="sub_container_exp ">
+        <div className="sub_container_exp_f ">
           <div className="exp_block">
             <p>Sep. 2023 — Dec. 2023</p>
             <p>MinimalDEsign (Brescia, Italy // Erasmus + Programme)</p>
@@ -88,7 +91,7 @@ const About = () => {
           <br></br>
           <p>Education</p>
         </div>
-        <div className="sub_container_edu">
+        <div className="sub_container_edu_f">
           <div className="edu_block">
             <p>2022 — 2023</p>
             <p>ETIC, BA (Hons) Graphic Design</p>
