@@ -9,20 +9,21 @@ a {
 
 .archive_links {
   padding: 2rem;
-  padding-top: 10rem;
+  padding-top: 18rem;
+  width: 42%;
 }
 
 .indv_link {
   display: flex;
   justify-content: last baseline;
   flex-wrap: wrap;
-  border-bottom: 1.5px solid rgba(0, 0, 0, 0.1);
-  padding-bottom: 0.75rem;
-  padding-top: 0.75rem;
+  border-bottom: 1.6px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 0.85rem;
+  padding-top: 0.85rem;
 }
 
 .indv_link_first {
-  border-top: 1.5px solid rgba(0, 0, 0, 0.1);
+  border-top: 1.6px solid rgba(0, 0, 0, 0.1);
 }
 
 .link_text_first {
@@ -30,5 +31,5 @@ a {
 }
 
 .link_text {
-  padding-left: 4rem;
+  padding-left: 0rem;
 }

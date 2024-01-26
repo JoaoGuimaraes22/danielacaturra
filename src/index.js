@@ -10,6 +10,7 @@ import Arch_Ice from "./pages/archive/arch_ice";
 import Arch_Maat from "./pages/archive/arch_maat";
 import Arch_Pantyfier from "./pages/archive/arch_pantyfier";
 import Arch_Viaggio from "./pages/archive/arch_viaggio";
+import Cenas from "./pages/cenas";
 
 export default function App() {
   return (
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="archive/maat" element={<Arch_Maat />} />
         <Route path="archive/pantyfier" element={<Arch_Pantyfier />} />
         <Route path="archive/viaggio" element={<Arch_Viaggio />} />
+
         <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>

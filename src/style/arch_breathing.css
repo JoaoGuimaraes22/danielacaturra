@@ -1,6 +1,6 @@
 .archive_links_fixed {
   position: fixed;
-  top: 10rem;
+  top: 18rem;
   left: 2rem;
 }
 
@@ -18,17 +18,72 @@
   display: flex;
 }
 
-.img_resize {
-  max-width: 50%;
+.img_1 {
+  max-width: 491px;
 }
 
-.img_resize_3 {
-  max-width: 90%;
+.img_2 {
+  max-width: 360px;
 }
 
-.img_resize_2 {
-  max-width: 70%;
+.img_3 {
+  max-width: 360px;
 }
-.video_resize {
-  max-width: 100%;
+
+.img_4 {
+  max-width: 720px;
+}
+
+.img_5 {
+  max-width: 491px;
+}
+
+.img_6 {
+  max-width: 360px;
+}
+
+.img_7 {
+  max-width: 360px;
+}
+
+.img_8 {
+  max-width: 360px;
+}
+
+.img_9 {
+  max-width: 720px;
+}
+
+.img_10 {
+  max-width: 720px;
+}
+
+.img_14 {
+  max-width: 483px;
+}
+
+.img_11 {
+  max-width: 260px;
+}
+
+.img_12 {
+  max-width: 260px;
+}
+
+.img_13 {
+  max-width: 260px;
+}
+
+.img_collumn {
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+}
+
+.description {
+  line-height: 22px;
+}
+
+.header_text {
+  line-height: 22px;
 }

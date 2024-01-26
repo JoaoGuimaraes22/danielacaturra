@@ -2,22 +2,25 @@ import styles from "../style/about.css";
 import "../style/repeatable.css";
 import { Link } from "react-router-dom";
 import dani_about from "../img/dani_about.png";
+import dc from "../img/dc.png";
 
 const About = () => {
   return (
     <section className="about">
-      <div className="header">
-        <p>
-          <Link to="/archive">Archive</Link>
-        </p>
-        <p>!!!!!!</p>
-      </div>
       <div className="container">
         <div className="sub_container">
           <p>danielacaturradesign@gmail.com</p>
           <p>(+351) 916 011 264</p>
-          <p>Instagram</p>
-          <p>Behance</p>
+
+          <a
+            href="https://www.instagram.com/itsdanielacaturra/"
+            target="_blank"
+          >
+            <p>Instagram</p>
+          </a>
+          <a href="https://www.behance.net/danielacaturra" target="_blank">
+            <p>Behance</p>
+          </a>
         </div>
         <div className="sub_container sub_container_nf">
           <p>Visual Identity</p>
@@ -39,7 +42,7 @@ const About = () => {
       </div>
       <div className="container">
         <div className="sub_container_exp"></div>
-        <div className="sub_container">
+        <div className="pad_extra">
           <p>::::::</p>
           <br></br>
           <p>Experience</p>
@@ -122,7 +125,8 @@ const About = () => {
         <div></div>
         <img src={dani_about} className="dani_about_img"></img>
       </div>
-      <div className="footer_fixed">
+      <div className="footer">
+        <img src={dc} className="dc_img"></img>
         <p>
           <Link to="/">Daniela!Caturra</Link>
         </p>
