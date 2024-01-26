@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/danielacaturra/static/css/main.872e0c05.css",
-    "main.js": "/danielacaturra/static/js/main.0bb70c03.js",
+    "main.css": "/danielacaturra/static/css/main.ef9c9b3a.css",
+    "main.js": "/danielacaturra/static/js/main.a9352db1.js",
     "static/media/maat7.png": "/danielacaturra/static/media/maat7.822bd78f8dab779ae7e9.png",
     "static/media/maat6.png": "/danielacaturra/static/media/maat6.fd105795995504b83c17.png",
     "static/media/ice7.png": "/danielacaturra/static/media/ice7.a54442f050a67ad040aa.png",
@@ -54,11 +54,11 @@
     "static/media/cm.png": "/danielacaturra/static/media/cm.45f2960cf971a3cccf76.png",
     "static/media/cinema1.png": "/danielacaturra/static/media/cinema1.1d1381441b05fb1ee0bb.png",
     "index.html": "/danielacaturra/index.html",
-    "main.872e0c05.css.map": "/danielacaturra/static/css/main.872e0c05.css.map",
-    "main.0bb70c03.js.map": "/danielacaturra/static/js/main.0bb70c03.js.map"
+    "main.ef9c9b3a.css.map": "/danielacaturra/static/css/main.ef9c9b3a.css.map",
+    "main.a9352db1.js.map": "/danielacaturra/static/js/main.a9352db1.js.map"
   },
   "entrypoints": [
-    "static/css/main.872e0c05.css",
-    "static/js/main.0bb70c03.js"
+    "static/css/main.ef9c9b3a.css",
+    "static/js/main.a9352db1.js"
   ]
 }
