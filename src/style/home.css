@@ -12,11 +12,14 @@ a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding-top: 7.7rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  position: absolute;
+  bottom: 10vh;
+  left: 2vw;
 }
 
+.img_home {
+  max-width: 95vw;
+}
 img {
   padding-top: 1.5rem;
 }

@@ -11,7 +11,7 @@ p {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 2rem;
-  row-gap: 2rem;
+  row-gap: 7rem;
   column-gap: 9rem;
 }
 
@@ -25,4 +25,15 @@ p {
 
 .width_change {
   min-width: 6.8vw;
+}
+
+.block {
+  padding-top: 2rem;
+}
+
+.dc_img {
+  position: absolute;
+  bottom: 10vh;
+  left: 2vw;
+  max-width: 95vw;
 }
